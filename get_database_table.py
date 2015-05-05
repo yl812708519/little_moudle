@@ -1,34 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*
-#
-#
-# class A(object):
-#     __cls_name = 'A'
-#     def __init__(self, name):
-#         self.__x = name
-#
-#     def __foo(self):
-#         print 'this is A.foo'
-#
-#     def bar(self):
-#         self.foo()
-#
-#     # def __dir__(self):
-#     #     return []
-#
-# class B(A):
-#     __cls_name = 'B'
-#     def foo(self):
-#         print 'this is B.foo'
-#         self._A__foo()
-#
-#
-# #
-# b = B(name='Bname')
-# # a = A(name='Aname')
-# # b.bar()
-# b.foo()
-
 import MySQLdb
 from contextlib import contextmanager
 
